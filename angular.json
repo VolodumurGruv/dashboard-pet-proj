@@ -65,7 +65,8 @@
               "buildTarget": "dashboard-pet-project:build:production"
             },
             "development": {
-              "buildTarget": "dashboard-pet-project:build:development"
+              "buildTarget": "dashboard-pet-project:build:development",
+              "port": 3031
             }
           },
           "defaultConfiguration": "development"

@@ -1,0 +1,13 @@
+@use "../calcs/size-calc";
+.side-bar {
+  position: fixed;
+  right: 0;
+  top: 30%;
+  width: size-calc.pxToRem(65rem);
+  height: size-calc.pxToRem(52rem);
+  border: 1px solid #000;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, .05);
+}
